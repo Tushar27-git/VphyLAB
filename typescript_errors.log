@@ -1,0 +1,23 @@
+﻿.next/types/validator.ts(24,44): error TS2344: Type 'Route' does not satisfy the constraint 'never'.
+  Type '"/"' is not assignable to type 'never'.
+.next/types/validator.ts(24,75): error TS2344: Type 'Route' does not satisfy the constraint 'never'.
+  Type '"/"' is not assignable to type 'never'.
+src/app/(experiments)/optics/fiber-aperture/page.tsx(4,38): error TS2307: Cannot find module '@/features/optics/hooks/useNumericalAperture' or its corresponding type declarations.
+src/app/(experiments)/optics/fiber-aperture/page.tsx(5,34): error TS2307: Cannot find module '@/features/observation/components/ObservationTable' or its corresponding type declarations.
+src/app/(experiments)/optics/fiber-aperture/page.tsx(7,23): error TS2307: Cannot find module '@/components/layout/MainStage' or its corresponding type declarations.
+src/app/(experiments)/optics/newtons-rings/page.tsx(3,33): error TS2307: Cannot find module '@/components/experiments/optics/newtons-rings/NewtonsRingsApp' or its corresponding type declarations.
+src/app/(experiments)/optics/newtons-rings/page.tsx(4,28): error TS2307: Cannot find module '@/components/experiments/optics/newtons-rings/TheoryCard' or its corresponding type declarations.
+src/app/(experiments)/optics/newtons-rings/page.tsx(5,32): error TS2307: Cannot find module '@/components/shared/ResetLabButton' or its corresponding type declarations.
+src/app/(experiments)/optics/newtons-rings/page.tsx(6,32): error TS2307: Cannot find module '@/components/experiments/optics/newtons-rings/SetupSchematic' or its corresponding type declarations.
+src/app/(experiments)/optics/spectrometer/page.tsx(1,29): error TS2307: Cannot find module '@/components/experiments/optics/spectrometer/SpectrometerApp' or its corresponding type declarations.
+src/app/(experiments)/optics/spectrometer/page.tsx(2,28): error TS2307: Cannot find module '@/components/experiments/optics/spectrometer/TheoryCard' or its corresponding type declarations.
+src/app/(experiments)/optics/spectrometer/page.tsx(4,32): error TS2307: Cannot find module '@/components/shared/ResetLabButton' or its corresponding type declarations.
+src/app/(experiments)/oscillation/bar-pendulum/page.tsx(4,32): error TS2307: Cannot find module '@/features/oscillation/hooks/useBarPendulum' or its corresponding type declarations.
+src/app/(experiments)/oscillation/bar-pendulum/page.tsx(5,48): error TS2307: Cannot find module '@/features/observation/components/ObservationTable' or its corresponding type declarations.
+src/app/(experiments)/oscillation/bar-pendulum/page.tsx(8,23): error TS2307: Cannot find module '@/components/layout/MainStage' or its corresponding type declarations.
+src/components/experiments/optics/newtons-rings/MicroscopeHUD.tsx(2,36): error TS2307: Cannot find module '@/lib/physics/newtons-rings' or its corresponding type declarations.
+src/components/experiments/optics/newtons-rings/MicroscopeHUD.tsx(51,35): error TS7006: Parameter 'ring' implicitly has an 'any' type.
+src/components/experiments/optics/newtons-rings/ObservationTable.tsx(5,38): error TS2307: Cannot find module '@/lib/physics/newtons-rings' or its corresponding type declarations.
+src/components/experiments/optics/spectrometer/EyepieceHUD.tsx(5,37): error TS2307: Cannot find module '@/lib/physics/spectrometer' or its corresponding type declarations.
+src/components/experiments/optics/spectrometer/EyepieceHUD.tsx(77,25): error TS7006: Parameter 'line' implicitly has an 'any' type.
+src/components/experiments/optics/spectrometer/ObservationTable.tsx(5,38): error TS2307: Cannot find module '@/lib/physics/spectrometer' or its corresponding type declarations.
