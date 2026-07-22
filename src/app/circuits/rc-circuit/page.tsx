@@ -66,6 +66,10 @@ export default function RCCircuitSimulator() {
             VphyLAB
           </Link>
           <div className="h-6 w-px bg-slate-700"></div>
+          <Link href="/experiments" className="text-slate-400 hover:text-white transition font-medium text-sm">
+            Experiments
+          </Link>
+          <span className="text-slate-600">/</span>
           <span className="font-semibold text-slate-300">Circuits</span>
         </div>
 
